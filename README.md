@@ -95,7 +95,13 @@ Failed symbols are reported in `errors` without hiding the successful ones:
 
 ## Standalone CLI `>_`
 
-The package also installs a `stock-quotes` CLI:
+After building, link the CLI into your PATH:
+
+```bash
+npm link
+```
+
+Then use it from anywhere:
 
 ```bash
 # Single quote
