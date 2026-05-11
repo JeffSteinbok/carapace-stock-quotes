@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "@sinclair/typebox": "^0.34.48",
-    "carapace-plugin-sdk": "github:JeffSteinbok/carapace-plugin-sdk#main"
+    "carapace-plugin-sdk": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^22",

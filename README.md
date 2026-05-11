@@ -6,13 +6,8 @@ Built with [🦞🐚 Carapace](https://github.com/JeffSteinbok/carapace-plugin-s
 
 ## Installation
 
-> **Pre-release** — not yet published to npm. Clone and build locally:
-
 ```bash
-git clone https://github.com/JeffSteinbok/carapace-stock-quotes.git
-cd carapace-stock-quotes
-npm install
-npm run build
+npm install carapace-stock-quotes
 ```
 
 ## OpenClaw plugin
