@@ -1,7 +1,8 @@
 {
   "name": "carapace-stock-quotes",
   "version": "1.3.0",
-  "description": "Stock, ETF, and mutual fund quotes for OpenClaw — powered by Yahoo Finance and Finnhub",
+  "description": "Stock, ETF, and mutual fund quotes for OpenClaw \u2014 powered by Yahoo Finance and Finnhub",
+  "repository": "github:JeffSteinbok/carapace-stock-quotes",
   "type": "module",
   "bin": {
     "stock-quotes": "./dist/bin/stock-quotes.js"
