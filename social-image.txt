@@ -1,0 +1,8 @@
+CARAPACE
+
+Stock Quotes
+
+Real-time stock quotes and market data for OpenClaw.
+Powered by Yahoo Finance — lookup, watchlists, and portfolio tracking.
+
+• Live Quotes  • Watchlists  • Market Data  • Zero Config
