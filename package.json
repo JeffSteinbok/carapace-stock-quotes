@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "tsup && carapace-generate-cli --entry ./dist/plugin.js --out ./dist/bin",
-    "test": "vitest run"
+    "test": "vitest run",
+    "deploy": "node scripts/deploy.mjs"
   },
   "files": [
     "dist",

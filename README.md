@@ -136,6 +136,23 @@ npm run build
 npm test
 ```
 
+### Deploying a local build to OpenClaw
+
+Install your local build as a packed, managed plugin instead of pointing
+`plugins.load.paths` at this checkout (which drags the dev `node_modules`
+into OpenClaw's update snapshots):
+
+```bash
+npm run deploy              # build → pack to out/stock-quotes.tgz → print install command
+npm run deploy -- --install # same, then run the install command
+```
+
+The install command is `openclaw plugins install npm-pack:<repo>/out/stock-quotes.tgz --force`.
+OpenClaw installs the pack into its managed plugin root along with the
+package's production `dependencies`. What goes in the pack is controlled by
+`"files"` in `package.json`; the deploy script lists the packed files and
+refuses to deploy if `src/`, `tests/` or `node_modules/` end up in it.
+
 ## License
 
 MIT
