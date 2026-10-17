@@ -27,7 +27,7 @@
     "quotes"
   ],
   "dependencies": {
-    "carapace-plugin-sdk": "^3.0.0"
+    "carapace-plugin-sdk": "^3.0.1"
   },
   "devDependencies": {
     "@types/node": "^22",
